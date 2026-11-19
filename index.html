@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrar | PortaMundo</title>
+  <link rel="stylesheet" href="portal.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">Portal<span>Mundo</span></a>
+    <nav class="topnav">Seu espaço de aprendizado sobre os jdm</nav>
+  </header>
+
+  <main class="auth-wrap">
+    <section class="auth-card">
+      <div class="eyebrow">Seu ensino começa aqui</div>
+      <h1>Bem-vindo de volta!</h1>
+      <p class="subtitle">Acesse sua conta jdm Portal e tenha uma experiência incrivel.</p>
+
+      <div id="mensagem" class="notice"></div>
+
+      <form id="formLogin">
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input id="email" type="email" placeholder="voce@email.com" required>
+        </div>
+
+        <div class="field">
+          <label for="senha">Senha</label>
+          <input id="senha" type="password" placeholder="Sua senha" required>
+        </div>
+
+        <button class="btn block" type="submit">Entrar na Jdm Portal</button>
+      </form>
+
+      <div class="form-footer">
+        Ainda não tem uma conta? <a href="cadastro.html">Criar cadastro</a>
+      </div>
+
+      <p class="muted" style="font-size:11px;text-align:center;margin-top:22px">
+      </p>
+    </section>
+  </main>
+
+  <script src="login.js"></script>
+</body>
+</html>

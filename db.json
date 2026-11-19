@@ -1,0 +1,32 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Administrador",
+      "sobrenome": "Portas",
+      "cpf": "000.000.000-00",
+      "email": "admin@portaljdm.com",
+      "senha": "Admin@6769",
+      "rua": "Rua Principal",
+      "cep": "00000-000",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "telefone": "(11) 99999-0000",
+      "admin": true
+    },
+    {
+      "nome": "Derick",
+      "sobrenome": "Hatiro",
+      "cpf": "491.248.381-2",
+      "email": "Derick.hatiro@gmail.com",
+      "senha": "vida123",
+      "rua": "rua santa efigênia",
+      "cep": "08740-400",
+      "cidade": "Mogi das Cruzes",
+      "estado": "SP",
+      "telefone": "111111111111",
+      "admin": false,
+      "id": 2
+    }
+  ]
+}
